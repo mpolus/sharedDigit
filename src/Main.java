@@ -6,7 +6,7 @@ public class Main {
 
     }
 
-    private static boolean hasSharedDigit(int first, int second) {
+    public static boolean hasSharedDigit(int first, int second) {
         if (first < 10  || first > 99 ){
             return false;
         }
